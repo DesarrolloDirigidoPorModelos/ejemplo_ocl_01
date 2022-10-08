@@ -1,0 +1,4 @@
+
+context JugadorFutbol::jugar(minutos:Integer)
+  pre: self.numero_tarjetas_amarillas <= 4
+  post: self.minutos_jugados + minutos
